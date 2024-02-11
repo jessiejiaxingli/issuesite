@@ -1,3 +1,350 @@
-h1{
-	color: pink;
+*{
+	font-family: "proxima-nova", sans-serif;
+	box-sizing: border-box;
+}
+
+a{
+	color: white;
+}
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+table{
+	border-spacing: 10px;
+	width: 84.5%;
+}
+
+td{
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.factlist td{
+	background-color: #2F3F20;
+}
+
+.menu{
+	background-color: #7E875A;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	font-size: 12pt;
+	opacity: 0.8;
+	z-index: +99;
+}
+
+.nav{
+	display: inline-block;
+	color: white;
+	width: 24%;
+	opacity: 1;
+}
+
+.callout1{
+	background-image: url('Untitled.jpg');
+	font-weight: bolder;
+	font-size: 36pt;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 102%;
+	margin: 0px;
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+
+.callout2{
+	background-image: url('forest2.jpg');
+	font-weight: bolder;
+	font-size: 36pt;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 102%;
+	margin: 0px;
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+
+.callout3{
+	background-image: url('forest5.jpeg');
+	font-weight: bolder;
+	font-size: 36pt;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 102%;
+	margin: 0px;
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+
+.callout4{
+	background-image: url('Among Giants 2.jpg');
+	font-weight: bolder;
+	font-size: 36pt;
+	text-align: center;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	width: 102%;
+	margin: 0px;
+	position: relative;
+	top: -10px;
+	left: -10px;
+}
+
+.bginfo{
+	background-color: #7E875A;
+	color: white;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 18pt;
+	padding: 20px;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.call1{
+	background-color: #2F3F20;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 24pt;
+	padding: 20px;
+	width: 80%;
+	margin: auto;
+	margin-top: 70px;
+}
+
+.factlist{
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	color: white;
+	padding: 20px;
+	font-size: 18pt;
+}
+
+.call2{
+	background-color: #7E875A;
+	text-align: center;
+	border-radius: 5px;
+	color: white;
+	font-size: 24pt;
+	padding: 20px;
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.call3{
+	color: white;
+	text-align: center;
+	font-size: 20pt;
+	width: 80%;
+	border-radius: 5px;
+	padding: 20px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.call4{
+	background-color: #3A4114;
+	color: white;
+	text-align: center;
+	font-size: 20pt;
+	width: 80%;
+	border-radius: 5px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.call5{
+	background-color: #7E875A;
+	color: white;
+	text-align: center;
+	font-size: 20pt;
+	width: 80%;
+	border-radius: 5px;
+	padding: 20px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+
+.fdata{
+	background-color: #7E875A;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 70px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
+.exlink{
+	margin-top: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	position: relative;
+	color: white;
+}
+
+.thumbnail{
+	display: inline-block;
+	width: 26%;
+	aspect-ratio: 1/1;
+	object-fit: cover;
+	margin: 4px;
+	border-radius: 5px;
+	position: relative;
+}
+
+.imgcenter{
+	position: absolute;
+	font-size: 24pt;
+	font-weight: bolder;
+}
+
+.footer{
+	margin-bottom: 25px;
+	opacity: 0.3;
+	text-align: right;
+}
+
+.hrinfo{
+	background-color: #697E60;
+	text-align: left;
+	overflow: auto;
+	font-size: 18pt;
+	color: white;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.bpinfo{
+	background-color: #8C5E45;
+	text-align: left;
+	overflow: auto;
+	font-size: 18pt;
+	color: white;
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+.ytvid{
+	background-color: #3F523F;
+	border-radius: 5px;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	padding: 20px;
+	padding-bottom: 30px;
+}
+
+
+#data{
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 50%;
+	border: 2px solid #7E875A;
+	border-radius: 5px;
+}
+
+#i1{
+	top: 38%;
+	left: 16%;
+}
+
+#i2{
+	top: 45%;
+	left: 43%;
+}
+
+#i3{
+	top: 45%;
+	right: 17%;
+}
+
+#hrbg{
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 20pt;
+}
+
+#bpbg{
+	margin-left: 20px;
+	font-size: 18pt;
+}
+
+#bpli{
+	font-size: 18pt;
+	padding-left: 40%;
+}
+
+#cs{
+	float: right;
+	width: 30%;
+	aspect-ratio: 3/4;
+	object-fit: cover;
+	margin-left: 30px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+}
+
+#f6{
+	float: left;
+	width: 30%;
+	aspect-ratio: 3/4;
+	object-fit: cover;
+	margin-right: 30px;
+	margin-left: 20px;
+	padding-bottom: 20px;
 }
